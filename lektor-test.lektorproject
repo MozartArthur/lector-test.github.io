@@ -1,0 +1,12 @@
+[project]
+name = lektor
+url_style=absolute
+
+
+[servers.ghpages]
+name = Prod
+target = ghpages+https://MozartArthur:7ef3ba6453a71fc0088e4fe481e374f6ebd92644@MozartArthur/lector-test.github.io
+
+[servers.ghdeploy]
+name= Dev
+target = ghpages+https://MozartArthur:7ef3ba6453a71fc0088e4fe481e374f6ebd92644@MozartArthur/lector-test.github.io
